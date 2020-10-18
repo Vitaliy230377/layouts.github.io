@@ -1,0 +1,116 @@
+footer{
+	background-color: #061e37;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 90px 0 100px;
+}
+.footerLeftBlock{
+	/*border:  1px solid red;*/
+	&__logo{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	&__links{
+		width: 315px;
+		display: flex;
+		justify-content: space-between;
+		font-size: 15px;
+		font-family:'Raleway';
+		color: white;
+		margin-top: 50px;
+	}
+	a{
+		text-decoration: none;
+		color: #a5a9ae;
+	}
+}
+.footerLogo{
+	/*// border: 2px solid red;*/
+	width: 50px;
+	height: 50px;
+	background-image:url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footerTextLogo{
+	line-height: 5px;
+	font-size: 15px;
+	font-family: Raleway;
+	color: white;
+
+	&__bolder{
+		font-weight:bold;
+	}
+}
+.footerRightBlock{
+	/*border: 1px solid green;*/
+
+	&__icons{
+		/*border:2px solid red;*/
+		width: 200px;
+		height: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		margin-top: 50px;
+		float: right
+	}
+	&__networksIcon{
+		/*border:2px solid green;*/
+		width: 20px;
+		height: 20px;
+		&:hover{
+			cursor:pointer;
+		}
+		&-twitter{
+			background:url(../img/twitter.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		&-facebook{
+			background:url(../img/facebook.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		&-in{
+			background:url(../img/in.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		&-ball{
+			background:url(../img/ball.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		&-be{
+			background:url(../img/be.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+.footerMenu{
+	font-weight: bold;
+	display: flex;
+	justify-content:space-around;
+	font-size: 14px;
+	text-transform: uppercase;
+	&__link{
+		margin-right: 10px; 
+		font-family: 'Raleway';
+		color: white;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+
+}
+
+

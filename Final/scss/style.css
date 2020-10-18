@@ -1,0 +1,12 @@
+.hero {
+  width: 100%;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  flex-wrap: wrap; }
+
+/*# sourceMappingURL=style.css.map */
